@@ -1,0 +1,1 @@
+domains = 'abcnews.go.com, washingtonpost.com, politico.com, buzzfeed.com, news.google.com, wsj.com, usatoday.com/news, nbcnews.com, msnbc.com, huffingtonpost.com, foxnews.com, cbsnews.com, breitbart.com, bloomberg.com, aljazeera.com, us.cnn.com'
