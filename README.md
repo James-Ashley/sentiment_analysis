@@ -12,7 +12,7 @@ Newspapers are notoriously biased and research suggests that readers prefer news
 ## Data
 News headlines from September through October of 2020 were collected using the News API. We chose news domains that are also included in the Pew Research Center's political bias evaluation since we plan to evaluate the relationship between political bias and sentiment (CITATION HERE). 
 
-### Domains Included
+#### Domains Included
 DOMAINS HERE
 
 We then evaluated the News on the Web Corpus for words related to immigration that occur frequently (CITATION HERE). We chose seven keywords: immigration, immigrant(s), migrant(s), and refugee(s).  
