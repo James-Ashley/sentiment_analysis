@@ -1,1 +1,0 @@
-pol_bias_score = {'ABC News': -1.7, 'Al Jazeera English': -4.4, 'Bloomberg': -1.8, 'Breitbart News': 2.9, 'BuzzFeed': -3.5, 'CBS News': -1.6, 'CNN': -2.2, 'Fox News': 2, 'Google News': -1.3, 'MSNBC': -2.4, 'NBC News': -2.1, 'Politico': -3.5, 'The Huffington Post': -3.6, 'The Wall Street Journal': -0.25, 'The Washington Post': -3.7, 'USA TODAY': -1.3}

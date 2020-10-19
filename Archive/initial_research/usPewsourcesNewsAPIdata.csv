@@ -1,0 +1,57 @@
+Pew Match,Name,url,country
+1,ABC News,https://abcnews.go.com,us
+1,Al Jazeera English,http://www.aljazeera.com,us
+0,Ars Technica,http://arstechnica.com,us
+0,Associated Press,https://apnews.com/,us
+0,Axios,https://www.axios.com,us
+0,Bleacher Report,http://www.bleacherreport.com,us
+1,Bloomberg,http://www.bloomberg.com,us
+1,Breitbart News,http://www.breitbart.com,us
+0,Business Insider,http://www.businessinsider.com,us
+1,Buzzfeed,https://www.buzzfeed.com,us
+1,CBS News,http://www.cbsnews.com,us
+1,CNN,http://us.cnn.com,us
+0,CNN Spanish,http://cnnespanol.cnn.com/,us
+0,Crypto Coins News,https://www.ccn.com,us
+0,Engadget,https://www.engadget.com,us
+0,Entertainment Weekly,http://www.ew.com,us
+0,ESPN,http://espn.go.com,us
+0,ESPN Cric Info,http://www.espncricinfo.com/,us
+0,Fortune,http://fortune.com,us
+1,Fox News,http://www.foxnews.com,us
+0,Fox Sports,http://www.foxsports.com,us
+1,Google News,https://news.google.com,us
+0,Hacker News,https://news.ycombinator.com,us
+0,IGN,http://www.ign.com,us
+0,Mashable,https://mashable.com,us
+0,Medical News Today,http://www.medicalnewstoday.com,us
+1,MSNBC,http://www.msnbc.com,us
+0,MTV News,http://www.mtv.com/news,us
+0,National Geographic,http://news.nationalgeographic.com,us
+0,National Review,https://www.nationalreview.com/,us
+1,NBC News,http://www.nbcnews.com,us
+0,New Scientist,https://www.newscientist.com/section/news,us
+0,New York Magazine,http://nymag.com,us
+0,Newsweek,https://www.newsweek.com,us
+0,Next Big Future,https://www.nextbigfuture.com,us
+0,NFL News,http://www.nfl.com/news,us
+0,NHL News,https://www.nhl.com/news,us
+1,Politico,https://www.politico.com,us
+0,Polygon,http://www.polygon.com,us
+0,Recode,http://www.recode.net,us
+0,Reddit /r/all,https://www.reddit.com/r/all,us
+0,Reuters,http://www.reuters.com,us
+0,TechCrunch,https://techcrunch.com,us
+0,TechRadar,http://www.techradar.com,us
+0,The American Conservative,http://www.theamericanconservative.com/,us
+0,The Hill,http://thehill.com,us
+1,The Huffington Post,http://www.huffingtonpost.com,us
+0,The Next Web,http://thenextweb.com,us
+0,The Verge,http://www.theverge.com,us
+1,The Wall Street Journal,http://www.wsj.com,us
+1,The Washington Post,https://www.washingtonpost.com,us
+0,The Washington Times,https://www.washingtontimes.com/,us
+0,Time,http://time.com,us
+1,USA Today,http://www.usatoday.com/news,us
+0,Vice News,https://news.vice.com,us
+0,Wired,https://www.wired.com,us
