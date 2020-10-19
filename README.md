@@ -2,8 +2,7 @@
 
 Version 1.0.0
 
-Description
----------------
+## Description
 The purpose of this project to perform a sentiment analysis on newspaper headlines related to immigration.
 
 ## Background
@@ -28,10 +27,8 @@ We then evaluated the News on the Web Corpus for words related to immigration th
 
 ## Instructions
 
-Contributors
-----------------
+## Contributors
 Rebekah Callari-Kaczmarczyk
 
-License and Copyright
---------------------------
+## License and Copyright
 &copy; Rebekah Callari-Kaczmarczyk
