@@ -1,4 +1,4 @@
-# sentiment-analysis: TITLE HERE
+# sentiment-analysis: Sentiment Analysis of US English News Headlines on Immigration
 
 Version 1.0.0
 
