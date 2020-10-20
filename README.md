@@ -17,8 +17,28 @@ News headlines from September 2020 through October 2020 were collected using the
 Sentiment analysis was performed using NLTK Vader (CITATION HERE). We used the same sentiment categories as SOURCE HERE: compound scores less than -0.2 were negative, compound scores above 0.2 were positive and all compound scores between this range were neutral. Using NLTK, we then converted the headlines to tokens with punctuation removed and performed a word frequency analysis using NLTK.
 
 ## Results
-As can be seen from the boxplots below, the median compound score was close to zero for all sources. Sources
+As can be seen from the boxplots below, the median compound score was close to zero for all sources. 
+![alt text](https://github.com/James-Ashley/sentiment_analysis/blob/main/images/boxplotaveragecompoundscores.png "Boxplot Compound Scores")
+
+When looking at the percentages of sentiment categories per source, it is clear that both Breitbart and Al Jazeera English have a higher distribution of negative headlines than other sources. 
+
 ![alt text](https://github.com/James-Ashley/sentiment_analysis/blob/main/images/headlinesentimentspercent.png "Percent of Headlines by Sentiment Type")
+
+As the figures below demonstrate, 'Trump' is the most frequently occurring word in both positive and negative headlines. 'Biden' is also frequent in both sets of headlines. The upcoming election seems to be heavily influencing news coverage even within a specific topic such as immigration. 
+
+![alt text](https://github.com/James-Ashley/sentiment_analysis/blob/main/images/frequenttermspositive.png "Positive Headlines Keywords")
+
+![alt text](https://github.com/James-Ashley/sentiment_analysis/blob/main/images/frequenttermsnegative.png "Negative Headlines Keywords")
+
+Differences in topic become clearer when looking at word clouds (weighted by frequency). Positive headlines seem to focus more on the Supreme Court justice nomination while negative headlines seem to focus more on issues such as 'ICE' and the 'border'. 
+
+### Word Cloud of Positive Headlines
+
+![alt text](https://github.com/James-Ashley/sentiment_analysis/blob/main/images/wordcloudpositive.png "Positive Headlines Word Cloud")
+
+### Word Cloud of Negative Headlines
+
+![alt text](https://github.com/James-Ashley/sentiment_analysis/blob/main/images/wordcloudnegative.png "Negative Headlines Word Cloud")
 
 ## Limitations
 
