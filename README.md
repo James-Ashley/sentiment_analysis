@@ -6,7 +6,7 @@ Version 1.0.0
 The purpose of this project to perform a sentiment analysis on newspaper headlines related to immigration.
 
 ## Background
-Newspapers are notoriously biased and research suggests that readers prefer news sources that affirm their beliefs and political leanings (Pew Research Center, 2014). This would suggest that news coverage, especially from more biased news sources, is not neutral. We were interested in verifying this by analyzing the sentiment of headlines covering a politically charged topic in the US: immigration. 
+Newspapers are notoriously biased and research suggests that readers prefer news sources that affirm their beliefs and political leanings (Pew Research Center, 2014). This would suggest that news coverage, especially from more biased news sources, is not neutral. We were interested in exploring this by analyzing the sentiment of headlines covering a politically charged topic in the US: immigration. 
 
 ## Data
 News headlines from September 2020 through October 2020 were collected using the News API. We chose news domains that are also included in the Pew Research Center's political bias evaluation since we plan to evaluate the relationship between political bias and sentiment in the future (2014). We then evaluated the News on the Web Corpus for words related to immigration that occur frequently (Davies, 2020). We chose seven keywords for our API calls: immigration, immigrant(s), migrant(s), and refugee(s). We removed video headlines since our primary interest is in text sentiment and also removed news sources with fewer than 50 headlines for a more evenly distributed dataset. An overview of the number of headlines per source can be seen in the figure below.  
@@ -41,7 +41,7 @@ Differences in topic become clearer when looking at word clouds (weighted by fre
 ![alt text](https://github.com/James-Ashley/sentiment_analysis/blob/main/images/wordcloudnegative.png "Negative Headlines Word Cloud")
 
 ## Limitations
-Although NLTK Vader performs relatively well on a variety of datasets (Gilbert & Hutto, 2014), it was initially designed to evaluate the sentiment of social media and we did not verify its accuracy in our sentiment analysis. Future research should include created a training dataset to evaluate the accuracy of Vader and improve its performance.
+Although NLTK Vader performs relatively well on a variety of datasets (Gilbert & Hutto, 2014), it was initially designed to evaluate the sentiment of social media and we did not verify its accuracy in our sentiment analysis. Future research should include created a training dataset of news headlines related to immigration to evaluate the accuracy of Vader and improve its performance.
 
 In addition, as can be seen in the keyword analysis, the news cycle is heavily influenced by current events, and the News API only allowed us to access the last month of news stories. A dataset with a wider range of publication dates would allow us to more effectively look at the terms and topics that are frequent in positive vs. negative headlines. 
 
