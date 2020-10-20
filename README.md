@@ -6,7 +6,7 @@ Version 1.0.0
 The purpose of this project to perform a sentiment analysis on newspaper headlines related to immigration.
 
 ## Background
-Newspapers are notoriously biased and research suggests that readers prefer news sources that affirm their beliefs and political leanings (Pew Research Center, 2014). This would suggest that news coverage, especially from more biased news sources, is not neutral. We were interested in exploring this by analyzing the sentiment of headlines covering a politically charged topic in the US: immigration. 
+Newspapers are notoriously biased, and research indicates that readers prefer news sources that affirm their beliefs and political leanings (Pew Research Center, 2014). This would suggest that news coverage, especially from more biased news sources, is not neutral. We were interested in exploring this by analyzing the sentiment of headlines covering a politically charged topic in the US: immigration.
 
 ## Data
 News headlines from September 2020 through October 2020 were collected using the News API. We chose news domains that are also included in the Pew Research Center's political bias evaluation since we plan to evaluate the relationship between political bias and sentiment in the future (2014). We then evaluated the News on the Web Corpus for words related to immigration that occur frequently (Davies, 2020). We chose seven keywords for our API calls: immigration, immigrant(s), migrant(s), and refugee(s). We removed video headlines since our primary interest is in text sentiment and also removed news sources with fewer than 50 headlines for a more evenly distributed dataset. An overview of the number of headlines per source can be seen in the figure below.  
