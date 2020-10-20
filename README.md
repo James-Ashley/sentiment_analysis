@@ -1,4 +1,4 @@
-# sentiment-analysis: Sentiment Analysis of US English News Headlines on Immigration
+# Sentiment Analysis of US English News Headlines on Immigration
 
 Version 1.0.0
 
@@ -14,11 +14,11 @@ News headlines from September 2020 through October 2020 were collected using the
 ![alt text](https://github.com/James-Ashley/sentiment_analysis/blob/main/images/newssourcesindataset.png "Headlines per Source")
 
 ## Methods
-Sentiment analysis was performed using NLTK Vader (CITATION HERE). We used the same sentiment categories as SOURCE HERE: compound scores less than -0.2 were negative, compound scores above 0.2 were positive and all compound scores between this range were neutral. Using NLTK, we then converted the headlines to tokens with punctuation removed and performed a word frequency analysis using NLTK.
+Sentiment analysis was performed using NLTK Vader (CITATION HERE). We used the same sentiment categories as SOURCE HERE: compound scores less than -0.2 were negative, compound scores above 0.2 were positive and all compound scores between this range were neutral. Using NLTK, we then converted the headlines to tokens with punctuation removed and performed a word frequency analysis.
 
 ## Results
 As can be seen from the boxplots below, the median compound score was close to zero for all sources. 
-![alt text](https://github.com/James-Ashley/sentiment_analysis/blob/main/images/boxplotaveragecompoundscores.png "Boxplot Compound Scores")
+![alt text](https://github.com/James-Ashley/sentiment_analysis/blob/main/images/boxplotaveragecompoundscores.png =100x20 "Boxplot Compound Scores" )
 
 When looking at the percentages of sentiment categories per source, it is clear that both Breitbart and Al Jazeera English have a higher distribution of negative headlines than other sources. 
 
