@@ -14,7 +14,7 @@ News headlines from September 2020 through October 2020 were collected using the
 ![alt text](https://github.com/James-Ashley/sentiment_analysis/blob/main/images/newssourcesindataset.png "Headlines per Source")
 
 ## Methods
-
+We removed video headlines since our primary interest is in text sentiment and also removed news sources with fewer than 50 headlines for a more evenly distributed dataset. Sentiment analysis was performed using NLTK Vader (CITATION HERE). We used the same sentiment categories as SOURCE HERE: compound scores less than -0.2 were negative, compound scores above 0.2 were positive and all compound scores between this range were neutral. Using NLTK, we then converted the headlines to tokesn with punctuation removed and performed a word frequency analysis using NLTK.
 
 ## Results
 
